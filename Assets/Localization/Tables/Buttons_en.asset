@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: PREV SCENE
     m_Metadata:
       m_Items: []
+  - m_Id: 28820051779584
+    m_Localized: click me!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

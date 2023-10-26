@@ -27,6 +27,10 @@ MonoBehaviour:
     m_Key: main.button.prev_scene
     m_Metadata:
       m_Items: []
+  - m_Id: 28820051779584
+    m_Key: main.scene.click_me
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
