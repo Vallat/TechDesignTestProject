@@ -16,6 +16,10 @@ public class anim_play_on_click : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            if ( !anim )
+            {
+                return;
+            }
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
             if (GetComponent<Collider2D>().OverlapPoint(mousePosition))
